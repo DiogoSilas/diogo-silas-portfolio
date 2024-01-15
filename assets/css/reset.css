@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}

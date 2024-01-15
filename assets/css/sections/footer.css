@@ -1,0 +1,45 @@
+footer.footer {
+    padding: 50px 4%;
+}
+
+footer.footer section.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+footer.footer section.redes-sociais h3.logo-copyright {
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: default;
+}
+
+footer.footer section.redes-sociais div > a {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 10px 15px 10px 0px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+footer.footer section.redes-sociais div > a:hover {
+    transform: scale(1.2);
+    color: #ddc53f;
+}
+
+footer.footer section.email {
+    padding-top: 20px;
+    border-top: 3px solid #ddc53f;
+}
+
+footer.footer section.email a {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+footer.footer section.email i {
+    font-size: 20px;
+    color: #ddc53f;
+}

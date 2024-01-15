@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.header .menu-desktop ul li {
+    display: inline-block;
+    padding: 0 20px;
+    margin: 5px 10px;
+}
+
+.header .menu-desktop ul li a {
+    font-size: 1.3rem;
+    padding: 5px;
+    color: #000;
+    position: relative;
+}
+
+.header .menu-desktop ul li a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #ddc53f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.9s ease-in-out;
+}
+
+.header .menu-desktop ul li a:hover::after {
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .header .menu-desktop {
+        display: none;
+    }
+}

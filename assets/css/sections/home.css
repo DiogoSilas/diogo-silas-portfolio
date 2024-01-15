@@ -1,0 +1,127 @@
+section.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 90vh;
+    gap: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+
+section.home .img-home img {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    box-shadow:  0px 0px 5px 1px #ffffff3e;
+}
+
+section.home .txt-home p {
+    font-size: 1.2rem;
+}
+
+section.home .txt-home h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+section.home .txt-home h2 {
+    font-size: 1.2rem
+}
+
+section.home .txt-home > a {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 10px 15px 10px 0px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+section.home .txt-home > a:hover {
+    transform: scale(1.4);
+    color: #ddc53f;
+}
+
+section.home .txt-home .txt-animation span {
+    position: relative;
+    font-weight: 600;
+}
+
+section.home .txt-home .txt-animation span::before {
+    content:"";
+    color: #ddc53f;
+    animation: words 20s infinite;
+}
+
+section.home .txt-home .txt-animation span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 10px);
+    height: 100%;
+    border-left: 2px solid #ddc53f;
+    right: -10px;
+    animation: cursor 1s infinite, typing 20s steps(25) infinite;
+    background-color: #000;
+}
+
+section.home #arrow-down {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 25px;
+    right: 49%;
+    animation: arrowdown 2s infinite alternate ease-in-out;
+    color: #ddc53f;
+}
+
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 10px);
+    }
+}
+
+@keyframes cursor {
+    0% {
+        border-left: 2px solid #000;
+    }
+}
+
+@keyframes words {
+    0%, 20%  {
+        content: "Leitor Voraz";
+    }
+    21%, 40% {
+        content: "Atleta Amador";
+    }
+    41%, 60% {
+        content: "Futuro Poliglota";
+    }
+    61%, 80% {
+        content: "Violinista";
+    }
+    81%, 100% {
+        content: "Entusiasta da Filosofia";
+    }
+}
+
+/* @keyframes imgAnimation {
+    0% {
+        -webkit-transform: translateY(0.4rem);
+    }
+    100% {
+        -webkit-transform: translateY(1);
+    }
+} */
+
+@keyframes arrowdown {
+    0% {
+        -webkit-transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(1.3rem);
+    }
+}

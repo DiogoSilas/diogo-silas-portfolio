@@ -1,0 +1,38 @@
+aside.about .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+aside.about img {
+    max-width: 300px;
+    width: 100%;
+    height: 480px;
+    border-radius: 5px;
+}
+
+aside.about .txt-about h2 > span {
+    color: #ddc53f;
+    display: block;
+}
+
+aside.about .txt-about p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+aside.about .txt-about a > button {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #000000;
+    background-color: #ddc53f;
+    transition: 0.5s ease-in-out;
+}
+aside.about .txt-about a > button:hover {
+    box-shadow: 0px 0px 5px 5px #ffe96f2d;
+    transform: scale(1.02);
+}
+

@@ -1,0 +1,55 @@
+
+section.projects .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+
+section.projects section.container article.project {
+    width: 290px;
+    height: 360px;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffffca;
+}
+
+section.projects section.container article.project > img {
+    width: 100%;
+    height: 100%;
+}
+
+section.projects section.container article.project > div {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    background-color: #000000e3;
+}
+
+section.projects section.container article.project > div h3 {
+    font-size: 600;
+}
+
+
+section.projects section.container article.project > div p {
+    text-align: justify;
+    margin: 15px auto;
+    padding-right: 10px;
+    overflow-y: scroll;
+}
+
+section.projects section.container article.project:hover > div {
+    opacity: 1;
+}

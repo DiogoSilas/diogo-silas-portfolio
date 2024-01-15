@@ -1,0 +1,32 @@
+section.skills .container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 30px;
+    color: #fff;
+}
+
+section.skills .skill {
+    max-width: 400px;
+    min-height: 300px;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+section.skills .skill:hover {
+    box-shadow: 0px 0px 8px #ddc53f;
+    transform: scale(1.02);
+}
+
+section.skills .skill i {
+    font-size: 3rem;
+    color: #ddc53f;
+}
+
+section.skills .skill > h3 {
+    font-size: 1.4rem;
+    margin: 15px 0;
+}
