@@ -55,6 +55,25 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <button class="btn-open-menu" id="btn-open-menu"><i class="bi bi-list"></i></button>
+    <div class="menu-mobile" id="menu-mobile">
+      <button class="btn-close-menu" id="btn-close-menu"><i class="bi bi-x-lg"></i></button>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">My Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="redes-sociais-menu">
+          <a href="https://www.linkedin.com/in/diogosilasds/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/DiogoSilas" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/diogosilas_ds/" class="" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </nav>
+    </div><!--  Menu Mobile -->
+    <div class="overlay-menu-mobile"></div><!--overlay-menu-mobile-->
   </header><!--Interface-->
   <main>
     <section class="home interface">
@@ -170,7 +189,7 @@
           <form class="form" action="">
             <input type="text" id="username" placeholder="Seu Nome Completo:" required>
             <input type="email" id="email" placeholder="Seu E-mail:" required>
-            <input type="number" id="number" placeholder="Seu Celular:">
+            <input type="number" id="number" placeholder="Seu Celular: (DDD) Numero" pattern="[0-9]{11}">
             <textarea id="message" placeholder="Sua Mensagem" required></textarea>
             <button id="btn-enviar" type="submit" value="enviar">Enviar</button>
           </form>

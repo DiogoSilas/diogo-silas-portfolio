@@ -1,13 +1,14 @@
 .header {
     display: flex;
     align-items: center;
+    align-self: center;
     justify-content: space-around;
     flex-flow: row nowrap;
+    max-width: 1880px;
     width: 100%;
     padding: 15px;
     position: fixed;
     top: 0;
-    left: 0;
     z-index: 999;
     background-color: #fff;
 }
@@ -38,4 +39,85 @@
 
 .header .menu-desktop ul li a:hover::after {
     width: 100%;
+}
+
+/*Menu Mobile*/
+
+.header .overlay-menu-mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6666; /*Valor menor que o do menu mobile*/
+    background-color: #ffffffc6;
+}
+
+.header .menu-mobile.open-menu ~ .overlay-menu-mobile {
+    display: block;
+}
+
+.header .btn-open-menu {
+    display: none;
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.header .menu-mobile {
+    width: 0%;
+    height: 100dvh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 9999;
+    transition: 0.5s;
+    background-color: #ffffff;
+}
+
+.header .menu-mobile.open-menu {
+    width: 70%;
+}
+
+.header .menu-mobile .btn-close-menu {
+    margin: 17px 20px;
+}
+
+.header .menu-mobile .btn-close-menu i {
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+}
+
+.header .menu-mobile nav .redes-sociais-menu {
+    text-align: center;
+}
+
+.header .menu-mobile nav .redes-sociais-menu i {
+    display: inline-block;
+    font-size: 30px;
+    margin: 55px 10px;
+}
+
+.header .menu-mobile nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.header .menu-mobile ul li a {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 100%;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+
+.header .menu-mobile ul li a:hover {
+    font-weight: 500;
+    background-color: #ddc53f;
 }

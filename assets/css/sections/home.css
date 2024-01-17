@@ -2,11 +2,11 @@ section.home {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    min-height: 90vh;
     gap: 50px;
     text-transform: uppercase;
     color: #fff;
     position: relative;
+    margin-top: 80px;
 }
 
 section.home .img-home img {
@@ -69,7 +69,7 @@ section.home .txt-home .txt-animation span::after {
 section.home #arrow-down {
     font-size: 1.5rem;
     position: absolute;
-    bottom: 15px;
+    bottom: 0px;
     right: 49%;
     animation: arrowdown 2s infinite alternate ease-in-out;
     color: #ddc53f;

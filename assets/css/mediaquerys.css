@@ -1,27 +1,57 @@
+@media screen and (min-width: 1880px) {
+    header.header {
+        position: sticky;
+        margin: auto;
+        top: 0;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 900px) {
+    /*Seção do Menu*/
+    header.header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
     header.header .menu-desktop {
         display: none;
+    }.header .btn-open-menu {
+        display: block;
     }
+    /*Seção do Home*/
     section.home {
         flex-direction: column-reverse;
+        margin-top: 0px;
     }
-
     section.home .txt-home {
         padding: 20px;
     }
     section.home .img-home img {
         width: 100%;
-        margin: 80px auto 0px;
+        margin: 80px auto 0;
     }
 
+    /*Seção de Minhas sHabilidades*/
     section.skills .skill {
-        margin: 15px 20px;
+        margin: 25px 20px;
     }
 
+    /*Seção Sobre Mim*/
     aside.about .container {
         flex-direction: column;
     }
     aside.about .txt-about {
         margin: auto 20px;
+        text-align: center;
+    }
+    aside.about .txt-about > h2, p {
+        text-align: justify;
+    }
+
+    /*Seção de Contatos - Formulário*/
+    section.contact section.container p,
+    section.contact section.container .form {
+        padding: 0 15px;
     }
 }

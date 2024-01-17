@@ -26,14 +26,14 @@ body {
 .about,
 .projects,
 .contact {
-    padding: 20px 4%;
+    padding: 25px 5%;
 }
 
 div.titulos {
     color: #fff;
     text-align: center;
     line-height: 40px;
-    padding: 90px 0 50px;
+    padding: 85px 0 50px;
 }
 div.titulos > .titulo {
     font-size: 2.5rem;
