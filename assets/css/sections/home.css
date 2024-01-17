@@ -3,10 +3,10 @@ section.home {
     align-items: center;
     justify-content: space-around;
     gap: 50px;
+    margin-top: 80px;
     text-transform: uppercase;
     color: #fff;
     position: relative;
-    margin-top: 80px;
 }
 
 section.home .img-home img {
