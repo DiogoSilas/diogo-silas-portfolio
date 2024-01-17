@@ -69,7 +69,7 @@ section.home .txt-home .txt-animation span::after {
 section.home #arrow-down {
     font-size: 1.5rem;
     position: absolute;
-    bottom: 25px;
+    bottom: 15px;
     right: 49%;
     animation: arrowdown 2s infinite alternate ease-in-out;
     color: #ddc53f;

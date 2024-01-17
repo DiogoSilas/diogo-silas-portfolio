@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px) {
+    header.header .menu-desktop {
+        display: none;
+    }
+    section.home {
+        flex-direction: column-reverse;
+    }
+
+    section.home .txt-home {
+        padding: 20px;
+    }
+    section.home .img-home img {
+        width: 100%;
+        margin: 80px auto 0px;
+    }
+
+    section.skills .skill {
+        margin: 15px 20px;
+    }
+
+    aside.about .container {
+        flex-direction: column;
+    }
+    aside.about .txt-about {
+        margin: auto 20px;
+    }
+}

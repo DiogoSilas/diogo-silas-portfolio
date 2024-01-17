@@ -39,9 +39,3 @@
 .header .menu-desktop ul li a:hover::after {
     width: 100%;
 }
-
-@media screen and (max-width: 900px) {
-    .header .menu-desktop {
-        display: none;
-    }
-}
