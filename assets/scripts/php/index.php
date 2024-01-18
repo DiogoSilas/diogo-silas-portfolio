@@ -11,8 +11,8 @@
     $header = "From: diogosilascontato@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
     if(mail($for, $subject, $body, $header)) {
-        echo("E-mail enviado com sucesso!")
+        echo("E-mail enviado com sucesso!");
     } else {
-        echo("Houve um erro ao enviar o email")
-    }
+        echo("Houve um erro ao enviar o email");
+    };
 ?>
