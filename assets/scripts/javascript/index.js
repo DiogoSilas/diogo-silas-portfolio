@@ -1,12 +1,13 @@
 const btnOpenMenu = document.getElementById('btn-open-menu');
-console.log(btnOpenMenu);
+const btnCloseMenu = document.getElementById('btn-close-menu');
+const overlayMenu = document.getElementById('overlay-menu-mobile');
 const menuMobile = document.getElementById('menu-mobile');
-console.log('menu-mobile')
-const btnCloseMenu = document.getElementById('btn-close-menu')
 
-btnOpenMenu.addEventListener('click', () => {
-    menuMobile.classList.add('open-menu')
-})
-btnCloseMenu.addEventListener('click', () => {
-    menuMobile.classList.remove('open-menu')
-})
+const toggleMenu = () => {
+    menuMobile.classList.toggle('open-menu');
+};
+
+btnOpenMenu.addEventListener('click', toggleMenu);
+btnCloseMenu.addEventListener('click', toggleMenu);
+overlayMenu.addEventListener('click', toggleMenu);
+menuMobile.addEventListener('click', toggleMenu);
