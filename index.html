@@ -186,11 +186,15 @@
             empresa, entre em contato, ficarei honrado em ter essa oportunidade</strong>. Sinta-se à vontade para entrar em contato, e
           juntos, transformarmos ideias em realidade.</p>
         <section>
-          <form class="form" action="">
-            <input type="text" id="username" placeholder="Seu Nome Completo:" required>
-            <input type="email" id="email" placeholder="Seu E-mail:" required>
-            <input type="number" id="number" placeholder="Seu Celular: (DDD) Numero" pattern="[0-9]{11}">
-            <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+          <form class="form" method="post" action="./assets/scripts/php/index.php">
+            <input type="text" name="username" id="username" placeholder="Seu Nome Completo:" required autocomplete="off">
+
+            <input type="email" name="email" id="email" placeholder="Seu E-mail:" required autocomplete="off">
+
+            <input type="number" name="phone" id="phone" placeholder="Seu Celular: (DDD) Numero" pattern="[0-9]{11}" autocomplete="off">
+
+            <textarea name="message" id="message" placeholder="Sua Mensagem" required></textarea>
+
             <button id="btn-enviar" type="submit" value="enviar">Enviar</button>
           </form>
         </section><!--Fim da seção do formulário-->
