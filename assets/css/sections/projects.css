@@ -42,6 +42,11 @@ section.projects section.container article.project > div {
 
 section.projects section.container article.project > div h3 {
     font-size: 600;
+
+}
+
+section.projects section.container article.project > div h3 a {
+    color: #fff;
 }
 
 
