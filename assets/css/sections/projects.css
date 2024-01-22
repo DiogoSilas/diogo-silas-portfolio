@@ -41,12 +41,13 @@ section.projects section.container article.project > div {
 }
 
 section.projects section.container article.project > div h3 {
+    Color: #fff;
     font-size: 600;
 
 }
 
-section.projects section.container article.project > div h3 a {
-    color: #fff;
+section.projects section.container article.project > div a {
+    color: #ddc53f;
 }
 
 

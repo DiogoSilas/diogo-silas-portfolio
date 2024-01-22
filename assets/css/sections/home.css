@@ -7,6 +7,11 @@ section.home {
     text-transform: uppercase;
     color: #fff;
     position: relative;
+    overflow: hidden;
+}
+
+.txt-home, .img-home {
+    visibility: hidden;
 }
 
 section.home .img-home img {
@@ -69,8 +74,8 @@ section.home .txt-home .txt-animation span::after {
 section.home #arrow-down {
     font-size: 1.5rem;
     position: absolute;
-    bottom: 0px;
-    right: 49%;
+    bottom: 18px;
+    right: 48%;
     animation: arrowdown 2s infinite alternate ease-in-out;
     color: #ddc53f;
 }
