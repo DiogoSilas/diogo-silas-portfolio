@@ -25,6 +25,9 @@
         top: 0;
         width: 100%;
     }
+    .header .logo {
+        font-size: 1.4rem;
+    }
     header.header .menu-desktop {
         display: none;
     }.header .btn-open-menu {

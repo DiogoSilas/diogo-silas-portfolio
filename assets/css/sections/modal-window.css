@@ -19,6 +19,7 @@ section.modais .modal-window .modal {
     border-radius: 10px;
     color: #000;
     border: 2px solid #000;
+    transition: 1s ease-in;
     background-color: #fff;
 }
 

@@ -10,7 +10,12 @@
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: #fff;
+    background-color: #ffffffd4;
+    backdrop-filter: blur(10px);
+}
+
+.header .logo {
+    font-size: 1.5rem;
 }
 
 .header .logo span {
