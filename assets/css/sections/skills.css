@@ -30,3 +30,20 @@ section.skills .skill > h3 {
     font-size: 1.4rem;
     margin: 15px 0;
 }
+
+section.skills .soft-skills i {
+    display: block;
+    text-align: center;
+}
+section.skills .soft-skills h3,
+section.skills .soft-skills ul {
+    text-align: center;
+}
+
+section.skills .soft-skills ul li {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #ddc53f;
+    padding: 5px;
+    margin: 5px;
+}
