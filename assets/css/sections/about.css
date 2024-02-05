@@ -11,6 +11,8 @@ aside.about img {
     border-radius: 5px;
 }
 
+
+
 aside.about .txt-about h2 > span {
     color: #ddc53f;
     display: block;
@@ -36,3 +38,7 @@ aside.about .txt-about a > button:hover {
     transform: scale(1.02);
 }
 
+aside.about .img-logo-link {
+    width: 20px;
+    height: 20px;
+}
