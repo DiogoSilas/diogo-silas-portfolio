@@ -97,20 +97,20 @@ section.home #arrow-down {
 }
 
 @keyframes words {
-    0%, 20%  {
-        content: "Leitor Voraz";
+    0%, 25%  {
+        content: "Resolução de problemas.";
     }
-    21%, 40% {
-        content: "Atleta Amador";
+    26%, 40% {
+        content: "Estudante da Lingua Inglesa.";
     }
     41%, 60% {
-        content: "Futuro Poliglota";
+        content: "Adaptabilidade.";
     }
     61%, 80% {
-        content: "Violinista";
+        content: "Pensamento analítico.";
     }
     81%, 100% {
-        content: "Entusiasta da Filosofia";
+        content: "Trabalho em equipe.";
     }
 }
 

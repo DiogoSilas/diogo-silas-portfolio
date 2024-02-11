@@ -9,6 +9,7 @@ aside.about img {
     width: 100%;
     height: 480px;
     border-radius: 5px;
+    border: 1px solid #ddc53f70;
 }
 
 

@@ -42,8 +42,13 @@ section.skills .soft-skills ul {
 
 section.skills .soft-skills ul li {
     display: inline-block;
-    border-radius: 5px;
-    border: 1px solid #ddc53f;
     padding: 5px;
     margin: 5px;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+section.skills .soft-skills ul li:hover {
+    border-radius: 5px;
+    border: 1px solid #ddc53f;
 }
