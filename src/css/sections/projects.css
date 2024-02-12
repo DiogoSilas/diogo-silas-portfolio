@@ -18,13 +18,13 @@
 .projects .project ::-webkit-scrollbar {
     width: 6px;
     border-radius: 50px;
-    background-color: #ababab;
+    background-color: transparent;
 }
 
 .projects .project ::-webkit-scrollbar-thumb {
     width: 6px;
     border-radius: 50px;
-    background-color: #000000b6;
+    background-color: #fff;
 }
 
 .projects .project .section-image {
