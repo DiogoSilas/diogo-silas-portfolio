@@ -8,17 +8,29 @@
 .projects .project {
     width: 300px;
     height: 500px;
-    border: 1px solid #ddc53f5a;
+    border: 1px solid #ffffff5a;
     border-radius: 5px;
     text-align: center;
     position: relative;
     overflow: hidden;
 }
 
+.projects .project ::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 50px;
+    background-color: #ababab;
+}
+
+.projects .project ::-webkit-scrollbar-thumb {
+    width: 6px;
+    border-radius: 50px;
+    background-color: #000000b6;
+}
+
 .projects .project .section-image {
     width: 100%;
     height: 169px;
-    border-bottom: 1px solid #ddc53f2b;
+    border-bottom: 1px solid #ffffff5a;
     object-fit: cover;
 }
 
@@ -47,6 +59,7 @@
 
 .projects .project .btn-project {
     text-decoration: none;
+    font-weight: 700;
     border-radius: 8px;
     padding: 8px;
     background-color: var(--color-primaria);
