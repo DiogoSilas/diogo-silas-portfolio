@@ -1,63 +1,59 @@
-
-section.projects section.container {
+.projects .container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     flex-flow: row wrap;
     gap: 20px;
 }
 
-
-section.projects section.container article.project {
-    max-width: 290px;
-    width: 100%;
-    height: 360px;
-    border-radius: 15px;
-    margin: 0px auto;
-    cursor: pointer;
-    overflow: hidden;
+.projects .project {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ddc53f5a;
+    border-radius: 5px;
+    text-align: center;
     position: relative;
-    background-color: #ffffffca;
+    overflow: hidden;
 }
 
-section.projects section.container article.project > img {
+.projects .project .section-image {
     width: 100%;
-    height: 100%;
+    height: 169px;
+    border-bottom: 1px solid #ddc53f2b;
+    object-fit: cover;
 }
 
-section.projects section.container article.project > div {
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 15px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: 0.5s ease-in-out;
-    background-color: #000000e3;
+.projects .project h3 {
+    margin-top: 10px;
 }
 
-section.projects section.container article.project > div h3 {
-    Color: #fff;
-    font-size: 600;
-
-}
-
-section.projects section.container article.project > div a {
-    color: #ddc53f;
-}
-
-
-section.projects section.container article.project > div p {
+.projects .project p {
     text-align: justify;
-    margin: 15px auto;
+    margin: 10px 10px 10px 20px;
     padding-right: 10px;
+    height: 35%;
     overflow-y: scroll;
 }
 
-section.projects section.container article.project:hover > div {
-    opacity: 1;
+
+.projects .project footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    padding: 25px 20px 10px;
+}
+
+.projects .project .btn-project {
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: var(--color-primaria);
+}
+
+.projects .project footer .social-icons i {
+    color: var(--color-primaria);
+    font-size: 1.4rem;
+    padding: 5px;
 }
