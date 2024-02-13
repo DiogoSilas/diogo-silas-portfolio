@@ -69,3 +69,7 @@ section.contact section.container .form #btn-enviar {
 section.contact section.container .form #btn-enviar:hover {
     box-shadow: 0px 0px 15px #ddc53f37;
 }
+
+.input-of-docum {
+    overflow: hidden;
+}
