@@ -58,7 +58,7 @@ section.home .txt-home .txt-animation span {
 section.home .txt-home .txt-animation span::before {
     content:"";
     color: #ddc53f;
-    animation: words 20s infinite;
+    animation: words 50s infinite;
 }
 
 section.home .txt-home .txt-animation span::after {
@@ -68,7 +68,7 @@ section.home .txt-home .txt-animation span::after {
     height: 100%;
     border-left: 2px solid #ddc53f;
     right: -10px;
-    animation: cursor 1s infinite, typing 20s steps(25) infinite;
+    animation: cursor 2s infinite, typing 50s steps(25) infinite;
     background-color: #000;
 }
 
@@ -98,19 +98,19 @@ section.home #arrow-down {
 
 @keyframes words {
     0%, 25%  {
-        content: "Resolução de problemas.";
+        content: "Na dança sutil do tempo a fluir,";
     }
     26%, 40% {
-        content: "Estudante da Lingua Inglesa.";
+        content: "Reflexos de vida a reluzir.";
     }
     41%, 60% {
-        content: "Adaptabilidade.";
+        content: "No silêncio, o eco do ser,";
     }
     61%, 80% {
-        content: "Pensamento analítico.";
+        content: "Em cada escolha, o destino a tecer.";
     }
     81%, 100% {
-        content: "Trabalho em equipe.";
+        content: "Na mente, a eterna busca do existir.";
     }
 }
 
