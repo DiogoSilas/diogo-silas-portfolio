@@ -34,7 +34,8 @@ section.home .txt-home h1 {
 }
 
 section.home .txt-home h2 {
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    width: 100%;
 }
 
 section.home .txt-home > a {
@@ -58,7 +59,7 @@ section.home .txt-home .txt-animation span {
 section.home .txt-home .txt-animation span::before {
     content:"";
     color: #ddc53f;
-    animation: words 50s infinite;
+    animation: words 35s infinite;
 }
 
 section.home .txt-home .txt-animation span::after {
@@ -68,7 +69,7 @@ section.home .txt-home .txt-animation span::after {
     height: 100%;
     border-left: 2px solid #ddc53f;
     right: -10px;
-    animation: cursor 2s infinite, typing 50s steps(25) infinite;
+    animation: cursor 1s infinite, typing 35s steps(25) infinite;
     background-color: #000;
 }
 
@@ -98,7 +99,7 @@ section.home #arrow-down {
 
 @keyframes words {
     0%, 25%  {
-        content: "Na dança sutil do tempo a fluir,";
+        content: "No tempo a fluir,";
     }
     26%, 40% {
         content: "Reflexos de vida a reluzir.";
@@ -107,10 +108,10 @@ section.home #arrow-down {
         content: "No silêncio, o eco do ser,";
     }
     61%, 80% {
-        content: "Em cada escolha, o destino a tecer.";
+        content: "Em cada escolha,";
     }
     81%, 100% {
-        content: "Na mente, a eterna busca do existir.";
+        content: "O destino a tecer.";
     }
 }
 
