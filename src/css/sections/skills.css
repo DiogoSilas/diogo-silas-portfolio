@@ -18,7 +18,15 @@ section.skills .skill {
 
 section.skills .skill:hover {
     box-shadow: 0px 0px 8px #ddc53f;
+    backdrop-filter: blur(2px);
     transform: scale(1.02);
+}
+
+section.skills .skill .skill-ai {
+    display: inline-block;
+    margin: 0 20px 0 10px;
+    font-size: 1.7rem;
+    color: #ddc53f;
 }
 
 section.skills .skill i {

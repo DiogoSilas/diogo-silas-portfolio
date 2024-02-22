@@ -36,6 +36,7 @@ section.home .txt-home h1 {
 section.home .txt-home h2 {
     font-size: 1.2rem;
     width: 100%;
+    color: #ddc53f;
 }
 
 section.home .txt-home > a {
@@ -51,7 +52,25 @@ section.home .txt-home > a:hover {
     color: #ddc53f;
 }
 
-section.home .txt-home .txt-animation span {
+section.home #arrow-down {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 20px;
+    right: 48%;
+    animation: arrowdown 2s infinite alternate ease-in-out;
+    color: #ddc53f;
+}
+
+@keyframes arrowdown {
+    0% {
+        -webkit-transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(1.3rem);
+    }
+}
+
+/*section.home .txt-home .txt-animation span {
     position: relative;
     font-weight: 600;
 }
@@ -70,16 +89,7 @@ section.home .txt-home .txt-animation span::after {
     border-left: 2px solid #ddc53f;
     right: -10px;
     animation: cursor 1s infinite, typing 35s steps(25) infinite;
-    background-color: #000;
-}
-
-section.home #arrow-down {
-    font-size: 1.5rem;
-    position: absolute;
-    bottom: 20px;
-    right: 48%;
-    animation: arrowdown 2s infinite alternate ease-in-out;
-    color: #ddc53f;
+    background-image: linear-gradient(90deg, #141414, #242424, #242424, #362733);
 }
 
 @keyframes typing {
@@ -91,7 +101,7 @@ section.home #arrow-down {
     }
 }
 
-@keyframes cursor {
+ @keyframes cursor {
     0% {
         border-left: 2px solid #000;
     }
@@ -113,7 +123,7 @@ section.home #arrow-down {
     81%, 100% {
         content: "O destino a tecer.";
     }
-}
+} */
 
 /* @keyframes imgAnimation {
     0% {
@@ -123,12 +133,3 @@ section.home #arrow-down {
         -webkit-transform: translateY(1);
     }
 } */
-
-@keyframes arrowdown {
-    0% {
-        -webkit-transform: translateY(0);
-    }
-    100% {
-        -webkit-transform: translateY(1.3rem);
-    }
-}
