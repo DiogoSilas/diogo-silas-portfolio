@@ -70,8 +70,5 @@ section.skills .soft-skills ul li:hover {
         display: block;
         text-align: center;
     }
-    section.skills .skill .skill-ai {
-        display: none;
-    }
 
 }
