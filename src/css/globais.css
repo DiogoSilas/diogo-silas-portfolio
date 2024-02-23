@@ -2,6 +2,7 @@ body {
     height: 100vh;
     color: #fff;
     background: url("../../assets/images/background.jpg") center center no-repeat;
+    background-color: #000000;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -9,13 +10,13 @@ body {
 ::-webkit-scrollbar {
     width: 7px;
     border-radius: 50px;
-    background-color: transparent;
+    background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
     width: 7px;
     border-radius: 50px;
-    background-color: #ffffff;
+    background-color: #fafafa;
 }
 
 .interface {

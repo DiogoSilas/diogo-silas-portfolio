@@ -14,6 +14,8 @@
     position: relative;
     box-shadow: 1px 1px 8px rgba(78, 78, 78, 0.2);
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.126);
+    backdrop-filter: blur(5px);
 }
 
 .projects .project ::-webkit-scrollbar {
