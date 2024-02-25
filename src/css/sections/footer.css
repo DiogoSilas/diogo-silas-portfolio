@@ -43,3 +43,12 @@ footer.footer section.email i {
     font-size: 20px;
     color: #ddc53f;
 }
+
+@media screen and (max-width: 340px) {
+    footer.footer section.redes-sociais {
+        flex-direction: column;
+    }
+    footer.footer section.email {
+        display: none;
+    }
+}
