@@ -17,16 +17,9 @@ section.skills .skill {
 }
 
 section.skills .skill:hover {
-    box-shadow: 0px 0px 8px #ddc53f;
+    box-shadow: 0px 0px 2px #ddc53f;
     backdrop-filter: blur(2px);
     transform: scale(1.02);
-}
-
-section.skills .skill .skill-ai {
-    display: inline-block;
-    margin: 0 20px 0 10px;
-    font-size: 1.7rem;
-    color: #ddc53f;
 }
 
 section.skills .skill i {
@@ -44,11 +37,11 @@ section.skills .soft-skills h3 {
     text-align: left;
 }
 
-section.skills .soft-skills ul {
+section.skills ul {
     text-align: justify;
 }
 
-section.skills .soft-skills ul li {
+section.skills ul li {
     display: inline-block;
     padding: 5px;
     margin: 5px;
@@ -56,14 +49,14 @@ section.skills .soft-skills ul li {
     transition: 0.3s ease-in-out;
 }
 
-section.skills .soft-skills ul li:hover {
+section.skills ul li:hover {
     border-radius: 5px;
     border: 1px solid #ddc53f;
 }
 
 @media screen and (max-width: 450px) {
     section.skills .skill > h3,
-    section.skills .soft-skills ul {
+    section.skills ul {
         text-align: center;
     }
     section.skills .skill i {
