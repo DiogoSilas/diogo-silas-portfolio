@@ -14,8 +14,8 @@
 
   <link rel="stylesheet" href="./src/css/sections/header.css" />
   <link rel="stylesheet" href="./src/css/sections/home.css" />
-  <link rel="stylesheet" href="./src/css/sections/skills.css" />
   <link rel="stylesheet" href="./src/css/sections/about.css" />
+  <link rel="stylesheet" href="./src/css/sections/skills.css" />
   <link rel="stylesheet" href="./src/css/sections/projects.css" />
   <link rel="stylesheet" href="./src/css/sections/contact.css" />
   <link rel="stylesheet" href="./src/css/sections/footer.css" />
@@ -52,10 +52,11 @@
     </a>
     <nav class="menu-desktop">
       <ul>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">My Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#certificates">Certificados</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contatos</a></li>
       </ul>
     </nav>
     <button class="btn-open-menu" id="btn-open-menu"><i class="bi bi-list"></i></button>
@@ -63,11 +64,12 @@
       <button class="btn-close-menu" id="btn-close-menu"><i class="bi bi-x-lg"></i></button>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">My Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#certificates">Certificados</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contatos</a></li>
         </ul>
         <div class="redes-sociais-menu">
           <a href="https://www.linkedin.com/in/diogosilasds/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -98,6 +100,32 @@
       <i id="arrow-down" class="fa-solid fa-arrow-down"></i>
     </section><!--Home-->
 
+    <aside class="about interface">
+      <div class="titulos" id="about">
+        <h2 class="titulo">Sobre mim</h2>
+        <h3 class="sub-titulo">Quem Sou eu?</h3>
+      </div>
+      <section class="container">
+        <img src="./assets/images/foto-section-about.png">
+        <div class="txt-about">
+          <h2>Muito prazer,<span>Sou Diogo Silas.</span></h2>
+          <p>
+            Com base nos meus interesses, é evidente que sou uma pessoa profundamente comprometida com o autoaperfeiçoamento, a aquisição de conhecimento e a exploração de várias facetas da vida. Tenho uma grande curiosidade para entender os mistérios da natureza, como a história da educação e das artes, particularmente música e literatura.
+          </p>
+          <p>
+            Além disso, meu envolvimento com testes de personalidade como o Big Five, DISC e o MBTI demonstra um forte desejo de me entender melhor, identificar pontos fortes, motivações e trabalhar em áreas de crescimento. Reconheço a importância da autoconsciência e como isso pode levar ao desenvolvimento pessoal e a interações eficazes com os outros.
+          </p>
+          <p>
+            Esse engajamento revela uma abordagem proativa para a aprendizagem e a solução de problemas, como visto no interesse em IA, GPTs e estratégias para criar um segundo cérebro. Valorizo o processo de experimentação e melhoria contínua, buscando otimizar habilidades cognitivas e aprimorar a saída criativa.
+          </p>
+          <p>
+            Em conclusão, a dedicação à aprendizagem ao longo da vida, autodescoberta e crescimento holístico brilham através desses interesses, mostrando um indivíduo multifacetado com sede de conhecimento, uma paixão por conexões humanas e um impulso pelo desenvolvimento pessoal. O compromisso de explorar diversos campos e abraçar novos desafios me posiciona como um indivíduo dinâmico e intelectualmente curioso em busca de excelência e realização.
+          </p>
+          <a href="#" target="_blank"><button>Visualizar Currículo</button></a>
+          <a href="mailto:diogosilascontato@gmail.com" target="_blank"><button>ENVIAR E-MAIL</button></a>
+      </section><!-- Container Sobre Mim -->
+      </div>
+    </aside><!--SOBRE MIM -->
 
     <section class="skills interface">
       <div class="titulos" id="skills">
@@ -105,18 +133,6 @@
         <h3 class="sub-titulo">O que forneço?</h3>
       </div>
       <section class="container">
-        <section class="skill soft-skills">
-          <i class="bi bi-play"></i>
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Adaptabilidade</li>
-            <li>Comunicação</li>
-            <li>Colaboração e trabalho em equipe</li>
-            <li>Inteligência emocional</li>
-            <li>Gestão de tempo</li>
-            <li>Pensamento analítico</li>
-          </ul>
-        </section>
         <section class="skill">
           <i class="bi bi-infinity"></i>
           <h3>Artificial Intelligence (AI's)</h3>
@@ -145,36 +161,61 @@
             poder ir
             adquirindo conhececimentos para transformar sites eficientes e de alta performance para os usuários.</p>
         </section>
+        <section class="skill soft-skills">
+          <i class="bi bi-play"></i>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Adaptabilidade</li>
+            <li>Comunicação</li>
+            <li>Colaboração e trabalho em equipe</li>
+            <li>Inteligência emocional</li>
+            <li>Gestão de tempo</li>
+            <li>Pensamento analítico</li>
+          </ul>
+        </section>
       </section><!-- Container das Skills -->
     </section><!-- SKILLS - SERVIÇOS -->
 
-
-
-    <aside class="about interface">
-      <div class="titulos" id="about">
-        <h2 class="titulo">Sobre mim</h2>
-        <h3 class="sub-titulo">Quem Sou eu?</h3>
+    <section class="certificates interface">
+      <div class="titulos" id="certificates">
+        <h2 class="titulo">Certificados</h2>
+        <h3 class="sub-titulo">Formações</h3>
       </div>
       <section class="container">
-        <img src="./assets/images/foto-section-about.png">
-        <div class="txt-about">
-          <h2>Muito prazer,<span>Sou Diogo Silas.</span></h2>
-          <p>
-            Com base nos meus interesses, é evidente que sou uma pessoa profundamente comprometida com o autoaperfeiçoamento, a aquisição de conhecimento e a exploração de várias facetas da vida. Tenho uma grande curiosidade para entender os mistérios da natureza, como a história da educação e das artes, particularmente música e literatura.
-          </p>
-          <p>
-            Além disso, meu envolvimento com testes de personalidade como o Big Five, DISC e o MBTI demonstra um forte desejo de me entender melhor, identificar pontos fortes, motivações e trabalhar em áreas de crescimento. Reconheço a importância da autoconsciência e como isso pode levar ao desenvolvimento pessoal e a interações eficazes com os outros.
-          </p>
-          <p>
-            Esse engajamento revela uma abordagem proativa para a aprendizagem e a solução de problemas, como visto no interesse em IA, GPTs e estratégias para criar um segundo cérebro. Valorizo o processo de experimentação e melhoria contínua, buscando otimizar habilidades cognitivas e aprimorar a saída criativa.
-          </p>
-          <p>
-            Em conclusão, a dedicação à aprendizagem ao longo da vida, autodescoberta e crescimento holístico brilham através desses interesses, mostrando um indivíduo multifacetado com sede de conhecimento, uma paixão por conexões humanas e um impulso pelo desenvolvimento pessoal. O compromisso de explorar diversos campos e abraçar novos desafios me posiciona como um indivíduo dinâmico e intelectualmente curioso em busca de excelência e realização.
-          </p>
-          <a href="mailto:diogosilascontato@gmail.com" target="_blank"><button>Contact me</button></a>
-      </section><!-- Container Sobre Mim -->
-      </div>
-    </aside><!--SOBRE MIM -->
+        <section>
+          <h3>Dev Quest</h3>
+          <img src="./assets/images/certificates/certificado-dev-quest.png" alt="">
+          <details><summary>Grade Curricular</summary>
+            <p>Lorem ....</p>
+          </details>
+          <a href="#" target="_blank">Ver certificados</a>
+        </section>
+        <section>
+          <h3>Reservatório de Dopamina</h3>
+          <img src="./assets/images/certificates/certificado-rd.png" alt="">
+          <details><summary>Grade Curricular</summary>
+            <p>Lorem ....</p>
+          </details>
+          <a href="#" target="_blank">Ver certificados</a>
+        </section>
+        <section>
+          <h3>Dominando o Obsidian</h3>
+          <img src="#">
+          <details><summary>Grade Curricular</summary>
+            <p>Lorem ....</p>
+          </details>
+          <a href="#" target="_blank">Ver certificados</a>
+        </section>
+        <section>
+          <h3>Curso em vídeo</h3>
+          <img src="#">
+          <details><summary>Grade Curricular</summary>
+            <p>Lorem ....</p>
+          </details>
+          <a href="#" target="_blank">Ver certificados</a>
+        </section>
+      </section>
+    </section><!--Certificates-->
 
 
     <section class="projects interface">
@@ -208,19 +249,6 @@
             </div>
           </footer>
         </section> <!--Project-->
-
-        <section class="project">
-          <img src="./assets/images/projects/weather-forecast.png" alt="Imagem" class="section-image">
-          <h3>Weather Forecast</h3>
-          <p>O projeto em questão se baseia na integração de uma API para fornecer informações meteorológicas em tempo real. Ao utilizar essa API, a aplicação é capaz de exibir dados cruciais como temperatura, umidade e velocidade do vento. Essa abordagem não apenas oferece uma experiência informativa aos usuários, mas também demonstra a capacidade do projeto em utilizar fontes externas para enriquecer suas funcionalidades.</p>
-          <footer>
-            <a class="btn-project" href="https://www.instagram.com/diogosilas_ds/" target="_blank">Saiba Mais</a>
-            <div class="social-icons">
-              <a href="https://diogosilas.github.io/weather-forecast/" target="_blank"><i class="bi bi-link-45deg"></i></a>
-              <a href="https://github.com/DiogoSilas/weather-forecast" target="_blank"><i class="bi bi-github"></i></a>
-            </div>
-          </footer>
-        </section><!--Project-->
                 
         <section class="project">
           <img src="./assets/images/projects/githubApi.png" alt="Imagem" class="section-image">
@@ -258,12 +286,8 @@
         <h3 class="sub-titulo">Fale Comigo</h3>
       </div>
       <section class="container">
-        <p>Agradeço por ter dedicado seu tempo para conhecer um pouco da minha jornada.</p>
-
-        <p><strong>Se estiver em busca de alguém dedicado, sedento por aprendizado, e que deseja crescer junto à sua
-            empresa, entre em contato, ficarei honrado em ter essa oportunidade</strong>. Sinta-se à vontade para entrar
-          em contato, e
-          juntos, transformarmos ideias em realidade.</p>
+        <p>Agradeço por ter dedicado seu tempo para conhecer um pouco da minha jornada. <strong>Sinta-se à vontade para entrar em contato
+        </strong>.</p>
         <section>
           <form class="form" method="POST" action="https://formsubmit.co/diogosilascontato@gmail.com">
             <input type="text" name="username" id="username" placeholder="Seu Nome Completo:" required

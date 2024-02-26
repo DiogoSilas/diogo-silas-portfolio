@@ -45,12 +45,12 @@ section.skills ul li {
     display: inline-block;
     padding: 5px;
     margin: 5px;
+    border-radius: 5px;
     border: 1px solid transparent;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 section.skills ul li:hover {
-    border-radius: 5px;
     border: 1px solid #ddc53f;
 }
 

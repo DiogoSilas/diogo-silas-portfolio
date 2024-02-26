@@ -28,6 +28,7 @@ aside.about .txt-about a > button {
     font-size: 18px;
     font-weight: 700;
     padding: 10px 20px;
+    margin: 10px;
     border-radius: 8px;
     cursor: pointer;
     color: #000000;
@@ -35,8 +36,7 @@ aside.about .txt-about a > button {
     transition: 0.5s ease-in-out;
 }
 aside.about .txt-about a > button:hover {
-    box-shadow: 0px 0px 5px 5px #ffe96f2d;
-    transform: scale(1.02);
+    box-shadow: 0px 0px 10px 2px #ffe96f2d;
 }
 
 aside.about .img-logo-link {
