@@ -18,6 +18,14 @@
     
 }
 
+@media screen and (max-width: 1020px)  {
+    header.header .menu-desktop {
+        display: none;
+    }.header .btn-open-menu {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 900px) {
     /*Seção do Menu*/
     header.header {

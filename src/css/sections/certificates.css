@@ -1,0 +1,76 @@
+.certificates .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container .certificate {
+    max-width: 350px;
+    width: 100%;
+    margin: 15px;
+}
+
+.container .certificate h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 15px;
+}
+
+.container .certificate div {
+    position: relative;
+    border-radius: 15% 15% 15% 5%;
+    overflow: hidden;
+}
+
+.container .certificate img {
+    width: 100%;
+}
+
+.container .certificate p {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 98.5%;
+    padding: 20px;
+    background-color: #000000b9;
+    transition: 0.5s ease-in;
+    z-index: 1;
+}
+
+.container .certificate p:hover {
+    opacity: 1;
+}
+
+.container .certificate a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.container .certificate .btn-certificate-1 {
+    background-color: #0E0D13;
+    color: #6B1E87;
+}
+.container .certificate .btn-certificate-2 {
+    background-color: #2222FF;
+    color: #fff;
+}
+.container .certificate .btn-certificate-3 {
+    background-color: #151515;
+    color: #7C3AED;
+}
+.container .certificate .btn-certificate-4 {
+    background-color: #000;
+    color: #FE0000;
+}
+
+.container .certificate .btn-certificate-5 {
+    background-color: #fff;
+    color: #288193;
+}
