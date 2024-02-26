@@ -14,11 +14,11 @@ section.skills .skill {
     border-radius: 10px;
     cursor: pointer;
     transition: .3s ease-in-out;
+    box-shadow: 0px 0px 2px #ddc53f;
+    backdrop-filter: blur(2px);
 }
 
 section.skills .skill:hover {
-    box-shadow: 0px 0px 2px #ddc53f;
-    backdrop-filter: blur(2px);
     transform: scale(1.02);
 }
 
