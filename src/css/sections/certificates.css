@@ -39,7 +39,20 @@
     backdrop-filter: blur(3px);
     transition: 0.5s ease-in;
     opacity: 0;
+    overflow-y: scroll;
     z-index: 1;
+}
+
+.container .certificate p::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.container .certificate p::-webkit-scrollbar-thumb {
+    width: 7px;
+    border-radius: 50px;
+    background-color: #fafafa;
 }
 
 .container .certificate p:hover {
@@ -55,24 +68,23 @@
     margin: 15px;
 }
 
-.container .certificate .btn-certificate-1 {
+.container .certificate:nth-child(1) a {
     background-color: #0E0D13;
     color: #6B1E87;
 }
-.container .certificate .btn-certificate-2 {
+.container .certificate:nth-child(2) a {
     background-color: #2222FF;
     color: #fff;
 }
-.container .certificate .btn-certificate-3 {
+.container .certificate:nth-child(3) a {
     background-color: #151515;
     color: #7C3AED;
 }
-.container .certificate .btn-certificate-4 {
+.container .certificate:nth-child(4) a {
     background-color: #000;
     color: #FE0000;
 }
-
-.container .certificate .btn-certificate-5 {
+.container .certificate:nth-child(5) a {
     background-color: #fff;
     color: #288193;
 }
