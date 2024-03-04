@@ -72,19 +72,12 @@
     background-color: #0E0D13;
     color: #6B1E87;
 }
+
 .container .certificate:nth-child(2) a {
-    background-color: #2222FF;
-    color: #fff;
-}
-.container .certificate:nth-child(3) a {
     background-color: #151515;
     color: #7C3AED;
 }
-.container .certificate:nth-child(4) a {
+.container .certificate:nth-child(3) a {
     background-color: #000;
     color: #FE0000;
-}
-.container .certificate:nth-child(5) a {
-    background-color: #fff;
-    color: #288193;
 }
